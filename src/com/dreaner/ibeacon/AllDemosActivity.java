@@ -12,6 +12,7 @@ import android.view.View;
  * @author wiktor@estimote.com (Wiktor Gworek)
  */
 public class AllDemosActivity extends Activity {
+	private static final String TAG = "AllDemosActivity";
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
