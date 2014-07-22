@@ -20,7 +20,7 @@
       android:theme="@android:style/Theme.Holo.Light">
 
     <activity
-        android:name="com.dreaner.ibeacon.AllDemosActivity"
+        android:name="com.dreaner.ibeacon.MainActivity"
         android:label="Estimote Demos"
         android:screenOrientation="portrait">
       <intent-filter>

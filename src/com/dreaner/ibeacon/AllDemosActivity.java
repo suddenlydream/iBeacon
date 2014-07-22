@@ -17,7 +17,7 @@ public class AllDemosActivity extends Activity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-
+    com.estimote.sdk.utils.L.enableDebugLogging(true);
     setContentView(R.layout.all_demos);
 
     findViewById(R.id.distance_demo_button).setOnClickListener(new View.OnClickListener() {
